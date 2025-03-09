@@ -1,4 +1,4 @@
-#menu a{
+#menu a {
     margin-top: 100px;
     margin-right: 45px;
     display: flex;
@@ -6,6 +6,7 @@
     background-color: #dbd9d9;
     padding: 5px;
 }
+
 #menu a:hover {
     background-color: rgb(141, 216, 219);
     transition: background-color 2s;
@@ -17,18 +18,16 @@
     margin-right: 150px;
 }
 
-
-
 #menu a {
     text-decoration: none;
     color: #646363;
     font-weight: bold;
- }
- 
+}
+
 
 body {
     font-family: arial, sans-serif;
-    background-color: rgb(162, 225, 248);
+    background-color: rgb(144, 165, 173);
     color: rgba(53, 44, 44, 1)
 }
 
@@ -38,16 +37,12 @@ div#interface {
     background-color: white;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, .5);
     padding: 20px;
-
 }
 
-
 #icone {
-
     margin: 20px;
     position: absolute;
     left: 990px;
-    top: 20px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -59,12 +54,14 @@ div#interface {
     align-items: center;
     padding: 1px;
 }
+
 header#cabecalho h1 {
     font-family: Arial, sans-serif;
     font-size: 30pt;
     color: #606060;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
 }
+
 header#cabecalho h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: #888888;
