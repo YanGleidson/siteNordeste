@@ -1,9 +1,30 @@
-@charset "UTF-8";
-@font-face {
-    font-family: "fontelogo";
-    src: url(../_fonts//bubblegum-sans-regular.otf);
-
+#menu a{
+    margin-top: 100px;
+    margin-right: 45px;
+    display: flex;
+    justify-content: center;
+    background-color: #dbd9d9;
+    padding: 5px;
 }
+#menu a:hover {
+    background-color: rgb(141, 216, 219);
+    transition: background-color 2s;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    margin-right: 150px;
+}
+
+
+
+#menu a {
+    text-decoration: none;
+    color: #646363;
+    font-weight: bold;
+ }
+ 
 
 body {
     font-family: arial, sans-serif;
@@ -20,35 +41,30 @@ div#interface {
 
 }
 
-p {
-    text-align: justify;
-    text-indent: 50px;
-}
 
-header#cabecalho img#icone {
+#icone {
+
+    margin: 20px;
     position: absolute;
-    left: 940px;
-    top: 110px;
+    left: 990px;
+    top: 20px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-
 }
 
-header#cabecalho {
-    border-bottom: 1px #606060 solid;
-    height: 150px;
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
 }
-
 header#cabecalho h1 {
     font-family: Arial, sans-serif;
     font-size: 30pt;
     color: #606060;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
-    padding: 0px;
-    margin-bottom: 0px;
 }
-
 header#cabecalho h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: #888888;
@@ -57,48 +73,11 @@ header#cabecalho h2 {
     margin-top: 0px;
 }
 
-#menu ul,
-li {
-    list-style: none;
-    text-transform: uppercase;
-    top: -30px;
-    left: 400px;
-
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
 }
 
-#menu li:hover {
-    background-color: rgb(141, 216, 219);
-    transition: background-color 1s;
-}
-
-#menu ul {
-    list-style: none;
-    position: absolute;
-    margin-top: 250px;
-    left: 300px;
-
-}
-
-#menu li {
-    display: inline-block;
-    background-color: rgb(173, 163, 182);
-    padding: 5px;
-    margin: 20px;
-}
-
-#menu li:hover {
-    background-color: rgb(141, 216, 219);
-    transition: background-color 1s;
-}
-
-#menu h1 {
-    display: none;
-}
-
-#menu a {
-    color: rgb(25, 53, 59);
-    text-decoration: none;
-}
 
 section#corpo {
     display: block;
@@ -107,6 +86,7 @@ section#corpo {
     border-right: 1px solid #606060;
     padding-right: 25px;
 }
+
 article#noticia1 h2 {
     font-size: 12pt;
     color: #606060;
@@ -117,8 +97,8 @@ article#noticia1 h2 {
 
 aside#img1 {
     display: block;
-    margin-right: 15px;
-    margin-top: 80px;
+    margin-right: 0px;
+    margin-top: 150px;
     float: right;
     background-color: #dff4fa;
     padding: 1px;
@@ -128,8 +108,8 @@ aside#img1 {
 
 aside#img2 {
     display: block;
-    margin-right: 15px;
-    margin-top: 280px;
+    margin-right: 0px;
+    margin-top: 250px;
     float: right;
     background-color: #dff4fa;
     padding: 1px;
@@ -138,8 +118,8 @@ aside#img2 {
 
 aside#img3 {
     display: block;
-    margin-right: 15px;
-    margin-top: 320px;
+    margin-right: 0px;
+    margin-top: 250px;
     float: right;
     background-color: #dff4fa;
     padding: 1px;
@@ -164,4 +144,3 @@ section#corpo2 {
     border-right: 1px solid #606060;
     padding-right: 25px;
 }
-
